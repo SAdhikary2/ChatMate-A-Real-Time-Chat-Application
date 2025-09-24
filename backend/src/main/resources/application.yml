@@ -1,17 +1,25 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:realchatapplication
-    driverClassName: org.h2.Driver
-    username: USERNAME
-    password: PASSWORD
+    url: ${DATABASE_URL}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ${DATABASE_USER}
+    password: ${DATABASE_PASSWORD}
   jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
+    database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
     show-sql: true
-  h2:
-    console:
-      enabled: true
+    properties:
+      hibernate:
+        format_sql: true
+        jdbc:
+          batch_size: 20
+        order_inserts: true
+        order_updates: true
+
 jwt:
-  secret: FGW390@#7&Ounjkebu!#%%GHOPQasx&Q
+  secret: ${JWT_SECRET}
   expiration: 3600000
+
+frontend:
+  urls: ${FRONTEND_URLS}

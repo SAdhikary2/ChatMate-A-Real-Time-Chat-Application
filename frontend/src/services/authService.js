@@ -1,23 +1,19 @@
 import axios from 'axios';
 
 
-// Set your API base URL
-const API_URL = 'http://localhost:8080'; // Update with your Spring Boot backend URL
+const API_URL = import.meta.env.VITE_API_URL; 
 
-// Create axios instance
 const api = axios.create({
     baseURL: API_URL,
     headers: {
         'Content-Type': 'application/json'
     },
-    withCredentials: true // Important for handling cookies cross-origin
+    withCredentials: true 
 });
 
-// Response interceptor for global error handling
 api.interceptors.response.use(
     (response) => response,
     (error) => {
-        // Global error handling
         if (error.response) {
             switch (error.response.status) {
                 case 401: // Unauthorized

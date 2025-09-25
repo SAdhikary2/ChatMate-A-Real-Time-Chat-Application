@@ -23,7 +23,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the built jar from build stage
-COPY --from=build /app/target/realchatapplication-0.0.1-SNAPSHOT.jar app.jar
+COPY target/realchatapplication-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose port
 EXPOSE 8080

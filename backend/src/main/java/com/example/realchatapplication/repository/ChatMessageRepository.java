@@ -12,6 +12,6 @@ public interface ChatMessageRepository extends JpaRepository<ChatMessage,Long> {
 
     @Query("SELECT cm from ChatMessage cm WHERE cm.type = 'PRIVATE_MESSAGE' AND " +
             "((cm.sender = :user1 AND cm.recipient = :user2) OR (cm.sender = :user2 AND cm.recipient = :user1))" +
-            "ORDER BY cm.timestamp ASC")
+            "ORDER BY cm.messageTimestamp ASC")
     List<ChatMessage> findPrivateMessagesBetweenTwoUsers(@Param("user1") String user1, @Param("user2") String user2);
 }

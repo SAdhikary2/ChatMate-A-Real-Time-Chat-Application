@@ -20,7 +20,6 @@
     <li><a href="#features">Features</a></li>
     <li><a href="#tech-stack">Tech Stack</a></li>
     <li><a href="#project-structure">Project Structure</a></li>
-    <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#configuration">Configuration</a></li>
     <li><a href="#examples">Examples</a></li>
@@ -64,25 +63,6 @@ ChatMate-A-Real-Time-Chat-Application/
 │── frontend/      # React.js frontend (UI components, chat interface)
 │── README.md      # Project documentation
   </pre>
-
-  <h2 id="installation">⚙️ Installation</h2>
-  <h3>1️⃣ Clone the repository</h3>
-  <pre><code>git clone https://github.com/SAdhikary2/ChatMate-A-Real-Time-Chat-Application.git
-cd ChatMate-A-Real-Time-Chat-Application</code></pre>
-
-  <h3>2️⃣ Backend Setup (Spring Boot)</h3>
-  <pre><code>cd backend
-./mvnw spring-boot:run</code></pre>
-
-  <h3>3️⃣ Frontend Setup (React.js)</h3>
-  <pre><code>cd frontend
-npm install
-npm start</code></pre>
-  <p>
-    The frontend runs by default on <strong>http://localhost:3000</strong> 
-    and connects to the backend WebSocket server.
-  </p>
-
   <h2 id="usage">▶️ Usage</h2>
   <ol>
     <li>Start the <strong>backend</strong> server.</li>

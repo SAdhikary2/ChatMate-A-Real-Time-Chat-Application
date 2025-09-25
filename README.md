@@ -21,7 +21,6 @@
     <li><a href="#tech-stack">Tech Stack</a></li>
     <li><a href="#project-structure">Project Structure</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#configuration">Configuration</a></li>
     <li><a href="#examples">Examples</a></li>
     <li><a href="#troubleshooting">Troubleshooting</a></li>
     <li><a href="#contributors">Contributors</a></li>
@@ -35,25 +34,46 @@
     <li> Private messaging between users</li>
     <li> Online/Offline status tracking</li>
     <li> User-friendly React.js frontend</li>
+    <li> Notification of user join/leave events</li>
+    <li> See when others are typing</li>
+    <li> Send Emojis </li>
     <li> Spring Boot backend with scalable architecture</li>
   </ul>
 
   <h2 id="tech-stack">🛠 Tech Stack</h2>
-  <h3>Frontend</h3>
+  
+  <h3>Backend (Spring Boot)</h3>
   <ul>
-    <li>⚛️ React.js</li>
-    <li>🎨 CSS</li>
+    <li>☕ Java 17 – Primary programming language</li>
+    <li>🚀 Spring Boot 3.x – Application framework</li>
+    <li>🔐 Spring Security – Authentication and authorization</li>
+    <li>🗄 Spring Data JPA – Database abstraction layer</li>
+    <li>🔌 WebSocket – Real-time bidirectional communication</li>
+    <li>🔑 JWT – JSON Web Tokens for stateless authentication</li>
+    <li>📦 Maven – Dependency management and build tool</li>
+    <li>📡 WebSTOMP & Spring Messaging – Real-time messaging</li>
   </ul>
-  <h3>Backend</h3>
+
+  <h3>Database</h3>
   <ul>
-    <li>☕ Spring Boot</li>
-    <li>🔌 Spring Messaging (WebSocket STOMP)</li>
-    <li>📦 Java</li>
+    <li>🐬 MySQL – Primary relational database for production</li>
+    <li>🧪 H2 Database – In-memory database for testing</li>
   </ul>
-  <h3>Other Tools</h3>
+
+  <h3>Frontend (Based on project structure)</h3>
   <ul>
-    <li>Node.js (for frontend build)</li>
-    <li>Maven/Gradle (for backend build)</li>
+    <li>⚛️ React.js – Frontend framework</li>
+    <li>📜 JavaScript – Type-safe JavaScript development</li>
+    <li>🔌 WebSocket Client – Real-time communication</li>
+    <li>🌐 REST API Integration – HTTP client for API calls</li>
+  </ul>
+
+  <h3>DevOps & Tools</h3>
+  <ul>
+    <li>🐳 Docker – Containerization</li>
+    <li>🧪 Spring Boot Test – Integration testing</li>
+    <li>✂️ Lombok – Reduced boilerplate code</li>
+    <li>📂 Git & GitHub – Version control</li>
   </ul>
 
   <h2 id="project-structure">📂 Project Structure</h2>
@@ -63,6 +83,7 @@ ChatMate-A-Real-Time-Chat-Application/
 │── frontend/      # React.js frontend (UI components, chat interface)
 │── README.md      # Project documentation
   </pre>
+
   <h2 id="usage">▶️ Usage</h2>
   <ol>
     <li>Start the <strong>backend</strong> server.</li>
@@ -75,18 +96,6 @@ ChatMate-A-Real-Time-Chat-Application/
       </ul>
     </li>
   </ol>
-
-  <h2 id="configuration">⚙️ Configuration</h2>
-  <ul>
-    <li>WebSocket endpoint: <code>/ws</code></li>
-    <li>Public topic: <code>/topic/public</code></li>
-    <li>Private messaging prefix: <code>/user/{username}/queue/messages</code></li>
-  </ul>
-  <p>
-    Update backend configs in <code>application.properties</code> and 
-    frontend API/WebSocket endpoints in 
-    <code>frontend/src/config.js</code> if required.
-  </p>
 
   <h2 id="examples">💡 Examples</h2>
   <ul>

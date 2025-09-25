@@ -23,7 +23,7 @@ public class ChatMessage {
     private String color;
 
     @Column(nullable = false)
-    private LocalDateTime timestamp;
+    private LocalDateTime messageTimestamp;
 
     @Enumerated(EnumType.STRING)
     private MessageType type;

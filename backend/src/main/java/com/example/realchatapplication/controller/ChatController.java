@@ -38,7 +38,7 @@ public class ChatController {
             System.out.println("User added Successfully "+ chatMessage.getSender()+ " with session ID "
                     +headerAccessor.getSessionId());
 
-            chatMessage.setTimestamp(LocalDateTime.now());
+            chatMessage.setMessageTimestamp(LocalDateTime.now());
             if(chatMessage.getContent()==null){
                 chatMessage.setContent("");
             }
@@ -52,8 +52,8 @@ public class ChatController {
     public ChatMessage sendMessage(@Payload ChatMessage chatMessage) {
 
         if(userService.userExists(chatMessage.getSender())){
-            if(chatMessage.getTimestamp()==null){
-                chatMessage.setTimestamp(LocalDateTime.now());
+            if(chatMessage.getMessageTimestamp()==null){
+                chatMessage.setMessageTimestamp(LocalDateTime.now());
             }
 
             if(chatMessage.getContent()==null){
@@ -70,8 +70,8 @@ public class ChatController {
 
         if(userService.userExists(chatMessage.getSender()) && userService.userExists(chatMessage.getRecipient())){
 
-            if(chatMessage.getTimestamp()==null){
-                chatMessage.setTimestamp(LocalDateTime.now());
+            if(chatMessage.getMessageTimestamp()==null){
+                chatMessage.setMessageTimestamp(LocalDateTime.now());
             }
 
             if(chatMessage.getContent()==null){

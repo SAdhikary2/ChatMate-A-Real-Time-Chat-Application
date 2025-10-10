@@ -99,6 +99,13 @@ ChatMate-A-Real-Time-Chat-Application/
   <h2 id="screenshots">📸 Screenshots</h2>
   
   <div class="media-container">
+   <div class="screenshot">
+      <div class="screenshot-caption">
+        <strong>Main Page View :</strong> Showcase before login or signup page.
+      </div>
+        <img src="screenshots/MainPage.png" alt="Main Page">
+    </div>
+  </div>
     <div class="screenshot">
       <div class="screenshot-caption">
         <strong>Login Page:</strong> User authentication interface
@@ -135,13 +142,7 @@ ChatMate-A-Real-Time-Chat-Application/
       </div>
       <img src="screenshots/emoji-picker.png" alt="Emoji Picker">
     </div>
-    <div class="screenshot">
-      <div class="screenshot-caption">
-        <strong>Main Page View :</strong> Showcase before login or signup page.
-      </div>
-        <img src="screenshots/MainPage.png" alt="Main Page">
-    </div>
-  </div>
+   
 
   <h2 id="usage">▶️ Usage</h2>
   <ol>

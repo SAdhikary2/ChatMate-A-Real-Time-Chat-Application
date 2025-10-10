@@ -99,9 +99,9 @@ ul li::before {
 }
 
 .links {
-  margin: 20px 0;
+  margin: 20px 20px 20px 20px;
   display: flex;
-  margin-top: 5px;
+
   gap: 8px;
 }
 

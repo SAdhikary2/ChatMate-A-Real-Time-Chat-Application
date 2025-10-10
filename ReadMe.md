@@ -17,12 +17,16 @@
   </p>
 
   <div class="links">
+     <div>
       <a href="https://chatmate-sukalyan.vercel.app/" target="_blank" class="btn live-link">
         🌐 Live Project
       </a>
+      </div>
+      <div>
       <a href="https://drive.google.com/file/d/1KfR9UiGicWrNqmYx1_U1TR1QORJHt03a/view?usp=sharing" target="_blank" class="btn demo-link">
         🎥 Demo Video
       </a>
+      </div>
   </div>
 
   <h2>📑 Table of Contents</h2>
@@ -31,7 +35,7 @@
     <li><a href="#tech-stack">Tech Stack</a></li>
     <li><a href="#project-structure">Project Structure</a></li>
     <li><a href="#screenshots">Screenshots</a></li>
-    <li><a href="#demo">Demo Video</a></li>
+    <li><a href="https://drive.google.com/file/d/1KfR9UiGicWrNqmYx1_U1TR1QORJHt03a/view?usp=sharing">Demo Video</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#examples">Examples</a></li>
     <li><a href="#troubleshooting">Troubleshooting</a></li>
@@ -56,36 +60,36 @@
   
   <h3>Backend (Spring Boot)</h3>
   <ul>
-    <li>☕ Java 17 – Primary programming language</li>
-    <li>🚀 Spring Boot 3.x – Application framework</li>
-    <li>🔐 Spring Security – Authentication and authorization</li>
-    <li>🗄 Spring Data JPA – Database abstraction layer</li>
-    <li>🔌 WebSocket – Real-time bidirectional communication</li>
-    <li>🔑 JWT – JSON Web Tokens for stateless authentication</li>
-    <li>📦 Maven – Dependency management and build tool</li>
-    <li>📡 WebSTOMP & Spring Messaging – Real-time messaging</li>
+    <li> Java 17 – Primary programming language</li>
+    <li> Spring Boot 3.x – Application framework</li>
+    <li> Spring Security – Authentication and authorization</li>
+    <li> Spring Data JPA – Database abstraction layer</li>
+    <li> WebSocket – Real-time bidirectional communication</li>
+    <li> JWT – JSON Web Tokens for stateless authentication</li>
+    <li> Maven – Dependency management and build tool</li>
+    <li> WebSTOMP & Spring Messaging – Real-time messaging</li>
   </ul>
 
   <h3>Database</h3>
   <ul>
-    <li>🐬 MySQL – Primary relational database for production</li>
-    <li>🧪 H2 Database – In-memory database for testing</li>
+    <li> MySQL – Primary relational database for production</li>
+    <li> H2 Database – In-memory database for testing</li>
   </ul>
 
   <h3>Frontend (Based on project structure)</h3>
   <ul>
-    <li>⚛️ React.js – Frontend framework</li>
-    <li>📜 JavaScript – Type-safe JavaScript development</li>
-    <li>🔌 WebSocket Client – Real-time communication</li>
-    <li>🌐 REST API Integration – HTTP client for API calls</li>
+    <li> React.js – Frontend framework</li>
+    <li> JavaScript – Type-safe JavaScript development</li>
+    <li> WebSocket Client – Real-time communication</li>
+    <li> REST API Integration – HTTP client for API calls</li>
   </ul>
 
   <h3>DevOps & Tools</h3>
   <ul>
-    <li>🐳 Docker – Containerization</li>
-    <li>🧪 Spring Boot Test – Integration testing</li>
-    <li>✂️ Lombok – Reduced boilerplate code</li>
-    <li>📂 Git & GitHub – Version control</li>
+    <li> Docker – Containerization</li>
+    <li> Spring Boot Test – Integration testing</li>
+    <li> Lombok – Reduced boilerplate code</li>
+    <li> Git & GitHub – Version control</li>
   </ul>
 
   <h2 id="project-structure">📂 Project Structure</h2>
@@ -142,7 +146,7 @@ ChatMate-A-Real-Time-Chat-Application/
       </div>
       <img src="screenshots/emoji-picker.png" alt="Emoji Picker">
     </div>
-   
+
 
   <h2 id="usage">▶️ Usage</h2>
   <ol>

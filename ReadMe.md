@@ -100,50 +100,48 @@ ChatMate-A-Real-Time-Chat-Application/
   
   <div class="media-container">
     <div class="screenshot">
-      <img src="screenshots/login-page.png" alt="ChatMate Login Page">
       <div class="screenshot-caption">
         <strong>Login Page:</strong> User authentication interface
       </div>
+        <img src="screenshots/login-page.png" alt="ChatMate Login Page">
     </div>
     <div class="screenshot">
-      <img src="screenshots/public-chat.png" alt="Public Chat Room">
       <div class="screenshot-caption">
         <strong>Public Chat Room:</strong> Group conversation interface
       </div>
+      <img src="screenshots/public-chat.png" alt="Public Chat Room">
     </div>
     <div class="screenshot">
-      <img src="screenshots/private-chat.png" alt="Private Messaging">
       <div class="screenshot-caption">
         <strong>Private Messaging:</strong> One-on-one conversation view
       </div>
+          <img src="screenshots/private-chat.png" alt="Private Messaging">
     </div>
     <div class="screenshot">
-      <img src="screenshots/user-list.png" alt="Online Users List">
       <div class="screenshot-caption">
         <strong>User List:</strong> Shows online/offline status of all users
       </div>
+       <img src="screenshots/user-list.png" alt="Online Users List">
     </div>
     <div class="screenshot">
-      <img src="screenshots/typing-indicator.png" alt="Typing Indicator">
       <div class="screenshot-caption">
         <strong>Typing Indicator:</strong> Shows when someone is typing
       </div>
+      <img src="screenshots/typing-indicator.png" alt="Typing Indicator">
     </div>
     <div class="screenshot">
-      <img src="screenshots/emoji-picker.png" alt="Emoji Picker">
       <div class="screenshot-caption">
         <strong>Emoji Picker:</strong> Easy emoji selection interface
       </div>
+      <img src="screenshots/emoji-picker.png" alt="Emoji Picker">
     </div>
     <div class="screenshot">
-      <img src="screenshots/MainPage.png" alt="Main Page">
       <div class="screenshot-caption">
         <strong>Main Page View :</strong> Showcase before login or signup page.
       </div>
+        <img src="screenshots/MainPage.png" alt="Main Page">
     </div>
   </div>
-
-
 
   <h2 id="usage">▶️ Usage</h2>
   <ol>

@@ -3,128 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
-      color: #333;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    
-    h1 {
-      color: #2c3e50;
-      border-bottom: 2px solid #3498db;
-      padding-bottom: 10px;
-    }
-    
-    h2 {
-      color: #3498db;
-      margin-top: 30px;
-    }
-    
-    h3 {
-      color: #2980b9;
-    }
-    
-    a {
-      color: #3498db;
-      text-decoration: none;
-    }
-    
-    a:hover {
-      text-decoration: underline;
-    }
-    
-    ul {
-      padding-left: 20px;
-    }
-    
-    li {
-      margin-bottom: 8px;
-    }
-    
-    pre {
-      background-color: #f8f9fa;
-      padding: 15px;
-      border-radius: 5px;
-      overflow-x: auto;
-    }
-    
-    code {
-      background-color: #f1f1f1;
-      padding: 2px 5px;
-      border-radius: 3px;
-    }
-    
-    .media-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      margin: 30px 0;
-    }
-    
-    .screenshot {
-      flex: 1 1 300px;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-      overflow: hidden;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    
-    .screenshot img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      display: block;
-    }
-    
-    .screenshot-caption {
-      padding: 10px;
-      background-color: #f8f9fa;
-      font-size: 0.9em;
-    }
-    
-    .video-container {
-      margin: 40px 0;
-      text-align: center;
-    }
-    
-    .video-container video {
-      max-width: 100%;
-      border-radius: 5px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
-    
-    .video-caption {
-      margin-top: 10px;
-      font-style: italic;
-      color: #666;
-    }
-    
-    .back-to-top {
-      display: inline-block;
-      margin-top: 20px;
-      font-size: 0.9em;
-    }
-    
-    .drive-link {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 10px 20px;
-      background-color: #3498db;
-      color: white;
-      border-radius: 5px;
-      text-decoration: none;
-      transition: background-color 0.3s;
-    }
-    
-    .drive-link:hover {
-      background-color: #2980b9;
-      text-decoration: none;
-    }
-  </style>
+  <link rel="stylesheet" href="/screenshots/style.css" />
 </head>
 <body>
   <h1> ChatMate – A Real-Time Chat Application</h1>
@@ -136,6 +15,15 @@
     <strong>private messages</strong>, and manage their 
     <strong>online/offline status seamlessly</strong>.
   </p>
+
+  <div class="links">
+      <a href="https://chatmate-sukalyan.vercel.app/" target="_blank" class="btn live-link">
+        🌐 Live Project
+      </a>
+      <a href="https://drive.google.com/file/d/1KfR9UiGicWrNqmYx1_U1TR1QORJHt03a/view?usp=sharing" target="_blank" class="btn demo-link">
+        🎥 Demo Video
+      </a>
+  </div>
 
   <h2>📑 Table of Contents</h2>
   <ul>

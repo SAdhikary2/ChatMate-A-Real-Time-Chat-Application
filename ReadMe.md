@@ -51,7 +51,7 @@
     <li> Online/Offline status tracking</li>
     <li> User-friendly React.js frontend</li>
     <li> Notification of user join/leave events</li>
-    <li> See when others are typing</li>
+    <li> See when others are typing..</li>
     <li> Send Emojis </li>
     <li> Spring Boot backend with scalable architecture</li>
   </ul>
